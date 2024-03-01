@@ -1,0 +1,138 @@
+body {
+  overflow-x:hidden;
+  background-color: rgb(4, 4, 4);
+  scrollbar-color: black, black;
+}
+.flavors-title {
+  font-family: "Overseer";
+  font-size: 52px;
+  font-weight: bold;
+  text-shadow: 4px 2px rgb(139, 119, 0);
+  background-color: gold;
+  color: rgb(43, 29, 109);
+  text-align: center;
+  border-top: 0px;
+  border-bottom: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flavor-box {
+  font-family: "Overseer";
+  color: gold;
+  background-color:rgb(43, 29, 109);
+  font-size: 28px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid gold;
+  border-radius: 10px;
+}
+.flavor-box.orange {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.victory {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.cherry {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.classic {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.quartz {
+  margin-left: 0px;
+  margin-right: 0px;  
+}
+.flavor-box.cranberry {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.quantum {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.grape {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.dark {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-box.wild {
+  margin-left: 0px; 
+  margin-right: 0px; 
+}
+.flavor-banner {
+  border-bottom: 0px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+.flavor-container {
+  flex: 1;
+}
+.orange-flav,
+.victory-flav,
+.cherry-flav,
+.classic-flav,
+.quartz-flav,
+.cranberry-flav,
+.quantum-flav,
+.grape-flav,
+.dark-flav,
+.wild-flav {
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 1px;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  color: gold;
+  font-weight: bold;
+  width: 1.5in;
+  height: 2in;
+  border: 2px solid gold;
+  background-color: rgb(43, 29, 109);;
+  border-radius: 12px;
+  text-align: center;
+  overflow: auto;
+  margin: 20px;;
+  scrollbar-color: solid black;
+ 
+}
+.orange-flav,
+.victory-flav,
+.cherry-flav,
+.classic-flav,
+.quartz-flav,
+.cranberry-flav,
+.quantum-flav,
+.grape-flav,
+.dark-flav,
+.wild-flav {
+  display: inline-block;
+}
+
+.orange-flav,
+.victory-flav,
+.cherry-flav,
+.classic-flav,
+.quartz-flav,
+.cranberry-flav,
+.quantum-flav,
+.grape-flav,
+.dark-flav,
+.wild-flav {
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
